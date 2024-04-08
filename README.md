@@ -10,6 +10,7 @@ Developers will use this CMS-style blog site to publish articles and share thoug
 
 ## Mock-Up
 
+The following images show the layout of the tech blog:
 
 ## Packages and Installation
 
