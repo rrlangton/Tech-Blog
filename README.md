@@ -10,17 +10,39 @@ Developers will use this CMS-style blog site to publish articles and share thoug
 
 ## Mock-Up
 
-## Installed Packages
 
-* pg
-* sequelize 
-* dotenv
-* bcrypt
-* express-session
-* connect-session-sequelize
+## Packages and Installation
 
-### Sources
+* <b>express-handlebars</b>
+    ````md
+    npm install express-handlebars
+    ````
+* <b>pg</b>
+    ````md
+    npm install pg
+    ````
+* <b>sequelize</b>
+    ````md
+    npm i sequelize
+    ````
+* <b>dotenv</b>
+    ````md
+    npm install dotenv --save
+    ````
+* <b>bcrypt</b>
+    ````md
+    npm install bcrypt
+    ````
+* <b>express-session</b>
+    ````md
+    npm install express-session
+    ````
+* <b>connect-session-sequelize</b>
+    ````md
+    npm install connect-session-sequelize
+    ````
 
+### Sources:
 * Activites from class
 * Tutoring sessions
 * Xpert Learning helper
