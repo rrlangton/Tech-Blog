@@ -1,1 +1,13 @@
-<h1>Hello World!</h1>
+<!-- Loop over each object in the array -->
+{{#each blogs as |blog| }}
+<div class="row mb-4 blog">
+  <div class="col-md-5">
+    <p>Created by {{blog.user.name}} on {{format_date blog.date_created}}</p>
+  </div>
+  <div class="col-md-7">
+    <p>
+      {{blog.content}}
+    </p>
+  </div>
+</div>
+{{/each}}
