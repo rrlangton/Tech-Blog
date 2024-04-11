@@ -420,12 +420,12 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: gray;
   text-decoration: none;
 }
 
 a:hover {
-  color: #065b83;
+  color: white;
   text-decoration: underline;
 }
 
@@ -912,7 +912,7 @@ a:hover {
 }
 
 .text-link {
-  color: #1b89bc !important;
+  color: white !important;
 }
 
 /* BACKGROUND UTILS */
@@ -945,7 +945,7 @@ a:hover {
 }
 
 .bg-link {
-  background-color: #1b89bc !important;
+  background-color: white !important;
 }
 
 /* DISPLAY */
@@ -979,13 +979,13 @@ a:hover {
   border-radius: 0.3rem;
   border: 1px solid transparent;
   outline: none;
-  color: #1a1a1a;
-  background-color: #aeaeae;
+  color: black;
+  background-color: white;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #cecece;
+  background-color: gray;
 }
 
 .btn.btn-squared {
@@ -1009,21 +1009,30 @@ a:hover {
 }
 
 .btn.btn-primary {
-  background-color: #2d3e50;
-  color: #d9e9e8;
+  background-color: slategray;
+  color: white;
 }
 
 .btn.btn-primary:hover {
-  background-color: #57779a;
+  background-color: black;
 }
 
 .btn.btn-danger {
-  background-color: #e64c66;
+  background-color: slategray;
   color: #ffffff;
 }
 
 .btn.btn-danger:hover {
-  background-color: #ee8294;
+  background-color: black;
+}
+
+.btn.update-btn {
+  background-color: slategray;
+  color: #ffffff;
+}
+
+.btn.update-btn:hover {
+  background-color: black;
 }
 
 .btn.btn-info {
@@ -1072,12 +1081,12 @@ a:hover {
 }
 
 .btn.btn-link {
-  background-color: #1b89bc;
+  background-color: white;
   color: #ffffff;
 }
 
 .btn.btn-link:hover {
-  background-color: #31a9e1;
+  background-color: limegreen;
 }
 
 .card {
