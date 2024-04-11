@@ -10,7 +10,9 @@ Developers will use this CMS-style blog site to publish articles and share thoug
 
 ## Mock-Up
 
-The following images show the layout of the tech blog:
+The following image displays the home login page:
+
+![Home page for login and signup](./assets/image.png)
 
 ## Packages and Installation
 
