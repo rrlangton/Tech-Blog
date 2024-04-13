@@ -8,5 +8,17 @@
     "express-session": "^1.18.0",
     "pg": "^8.11.5",
     "sequelize": "^6.37.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "install": "npm i"
+  },
+  "name": "tech-blog",
+  "description": "## Description",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

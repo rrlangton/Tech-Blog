@@ -29,15 +29,28 @@
     {{#each blogs as |blog|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4>{{blog.title}}</h4>
+        <a href = "/editblog/{{blog.id}}"><h4>{{blog.title}}</h4></a>
         <p>{{blog.content}}</p>
       </div>
+      
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{blog.id}}">DELETE</button> 
-        <form class="form new-update-form">
+        {{!-- update blog post --}}
+        {{!-- <form id="update-blog-form">
         <div class="form-group">
-        <p><br><button type="submit" class="btn btn-sm update-btn" data-post-id="{{blog.id}}">UPDATE</button></br></p>
-        </div>
+          <label for="updated-title">Title:</label><br>
+        <input type="text" id="updated-title" name="updated-title"><br>
+        
+        <label for="updated-content">Content:</label><br>
+        <textarea id="updated-content" name="updated-content"></textarea><br>
+        
+        <!-- Hidden input field to store the post ID -->
+        <input type="hidden" id="post-id" name="post-id">
+        
+        <button type="submit">Update</button>
+    </form> --}}
+        {{!-- <p><br><button type="submit" class="btn btn-sm update-btn" data-post-id="{{blog.id}}">UPDATE</button></br></p> --}}
+        {{!-- </div> --}}
     </div>
     </div>
     {{/each}}
