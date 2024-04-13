@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "install": "npm i"
+    "install": "npm install"
   },
   "name": "tech-blog",
   "description": "## Description",
