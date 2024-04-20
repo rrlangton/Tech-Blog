@@ -1,20 +1,17 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
   </div>
 </div>
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create New Post:</h3>
+    <h3>Create New Comment:</h3>
 
     <form class="form new-blog-form">
       <div class="form-group">
-        <label for="blog-title">Title:</label>
-        <input class="form-input" type="text" id="blog-title" name="blog-title" />
-      </div>
-      <div class="form-group">
-        <label for="blog-content">Content:</label>
-        <textarea class="form-input" id="blog-content" name="blog-content"></textarea>
+        <label for="blog-comment">Comment:</label>
+        <textarea class="form-input" id="blog-comment" name="blog-comment"></textarea>
       </div>
       <div class="form-group">
         <button type="submit" class="btn btn-primary">CREATE</button>
@@ -22,15 +19,14 @@
     </form>
   </div>
 
-  {{#if blogs.length}}
+  {{#if comments.length}}
   <div class="col-md-6 blog-list">
-    <h3>My Blog Posts:</h3>
+    <h3>My Comments:</h3>
 
-    {{#each blogs as |blog|}}
+    {{#each comments as |comment|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <a href = "/editblog/{{blog.id}}"><h4>{{blog.title}}</h4></a>
-        <p>{{blog.content}}</p>
+        <p>{{comment.comment}}</p>
       </div>
       
       <div class="col-md-4">
@@ -41,5 +37,3 @@
   </div>
   {{/if}}
 </div>
-
-<script src="./js/profile.js"></script>
