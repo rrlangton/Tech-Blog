@@ -7,17 +7,18 @@
         <p>Created by {{blog.user.username}} on {{format_date blog.date_created}}</p>
       </div>
       <div class="col-md-7">
-        <h1 class="card-title">{{blog.title}}</h1> 
+        <a href="/comment/{{blog.id}}">
+        <h1 class="card-title">{{blog.title}}</h1></a> 
         <p class="card-text">{{blog.content}}</p>
         <!-- Add form for commenting -->
-        <form action="/comment" method="post">
+        {{!-- <form action="/comment" method="post">
           <input type="hidden" name="blog_id" value="{{blog.id}}">
           <div class="form-group">
             <label for="post-comment">Comment:</label>
             <textarea class="form-control" id="post-comment" name="post-comment" rows="3"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit Comment</button>
-        </form>
+        </form> --}}
       </div>
     </div>
   </div>
